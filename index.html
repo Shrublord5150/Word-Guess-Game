@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Hangman Game</title>
+    <!-- Reset -->
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+    <!-- CSS -->
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <!-- JavaScript -->
+    <script type="text/javascript" src="assets/javascript/game.js"></script>
+</head>
+
+<body>
+
+    <div class="container">
+        <header>
+            <h1>Hangman Game</h1>
+            <br>
+            <h2>The Nickelback Edition</h2>
+        </header>
+        <br>
+        <div class="underscore">
+                <p id="directions-text">Press "/" to start playing!</p>
+            <p id="song"></p>
+        </div>
+        <br>
+        <div class="image-display">
+            A Gift for Winners!
+            <p id="image-holder"></p>
+            <div id="x"></div>
+            <p id="correct"></p>
+        </div>
+        
+        <div class="incorrect-guess">
+            Incorrect Guesses <span id="remaining">(12 attempts remaining...)</span>
+            <p id="incorrect"></p>
+        </div>
+
+</body>
+
+</html>
