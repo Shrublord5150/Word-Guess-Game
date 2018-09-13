@@ -1,34 +1,11 @@
-# Word-Guess-Game
-Hangman Game
+This project is a Hangman game that establishes a basic level of understanding and implementing JavaScript.
 
-<!-- Pseudo Code -->
+The theme to this particular version is Nickleback, the band.
 
-<!--Wireframe  -->
+The objective of the game is to guess the title of the song that is displayed as a series of underscores.
+As the User makes guesses toward the title, by pressing any letter key A through Z, the underscores are replaced with the correct letters. The User is allowed 12 incorrect guesses, which are tracked and listed in the "incorrect guesses" area/div on the window/HTML. On the 13th incorrect guess, the lose condition initaiates and the User loses the game. COrrectly guessing the title will initiate the win condition and then the game will reset and allow the User to play again.
 
-<!-- Create all files and link them -->
-
-<!-- Build basic set up 
-    <!-- html/css header, divs, sections, etc -->
-
-<!-- build javascript 
-    <!-- Set variables
-    <!-- set array of KB movie titles 
-    <!-- set a function that randomly selects a song title 
-    <!-- display the correct length of letters as an '_' 
-    <!-- on keyup the array[i] checks for === 
-    <!-- create an event listener for the alphabet 
-    <!-- if correct it fills in the '_' 
-    <!-- if incorrect lists the incorrect guess and minus a life
-    <!-- Create a win lose coniditions 
-    <!-- win condition 
-    <!-- Say "congrats" 
-    <!-- post a picture from the movie 
-    <!-- maybe a song from the movie?? maybe? 
-    <!-- lose condition 
-    <!-- alert an insult from KB 
-    <!-- show a funny picture of him (disappointed) 
-    <!-- alert--you must be a tom cruise fan 
-    <!-- a picture of tom cruise (ridiculous) 
+As it stand now the game is incomplete, as I was unable to correctly code functions involving the display of pictures and songs during the win condition. Some of this code remains in the JavaScript, but is commented out starting on line 85 of the game.js page.
         
 
      
